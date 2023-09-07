@@ -43,7 +43,7 @@ elif val1 <= 1:
             listaN.append(numeroUser)
         except ValueError:
             print(Fore.RED + Fore.RED)
-            print("HAY UNA MANERA DE HACRLO MAL Y VOS LA ISISTE")
+            print("HAY UNA MANERA DE HACRLO MAL Y VOS LA HICISTE")
 
 
 
