@@ -42,7 +42,7 @@ while True:
                 print(Fore.CYAN + "Inisiar secion")
                 nombreI = str(input(Fore.YELLOW + "Ingrese el nombre::"))
                 contraseñaI = str(input(Fore.YELLOW + "Ingrese la contraseña::"))
-                if nombreI == cuentas["nombre"] and contraseñaI == cuentas["contraseña"]:
+                if nombreI == cuenta["nombre"] and contraseñaI == cuenta["contraseña"]:
                     print(Fore.BLACK + "Bienvenido")
                     break
                 else:
