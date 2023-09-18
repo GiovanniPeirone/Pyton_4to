@@ -30,7 +30,7 @@ while True:
                 if cuenta["nombre"] and cuenta["contraseña"] == cuenta["nombre"] and cuenta["contraseña"]:
                     print("Estacuenta ya exixte")
                 else:
-                    cuents =+ cuenta
+                    cuentas =  cuenta
                     print(Fore.BLUE + "Registo exitoso")
                     break
             except ValueError:
@@ -50,7 +50,7 @@ while True:
             except ValueError:
                 print(Fore.RED + "MAL")
     if opcionMenu == -1:
-        print(cuenta)
+        print(cuentas)
     
 
 
