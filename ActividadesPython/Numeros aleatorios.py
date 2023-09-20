@@ -1,8 +1,7 @@
 import random
-import colorsys
-from colorama import Fore,Back
+from colorama import Fore
+from colorama import Back
 from time import sleep
-from colorama import Cursor
 print(Fore.GREEN + "Recursos Python")
 print(Fore.BLUE)
 
