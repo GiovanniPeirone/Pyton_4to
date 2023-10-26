@@ -1,5 +1,5 @@
 import random
-from colorama import Fore
+
 from os import system
 from time import sleep 
 import time
@@ -16,6 +16,52 @@ def menuAtaque():
     print(mA)
 
 #---------------------------------------------------------------------------------------
+
+def AAA():
+    print('''
+        ###    #     ### 
+        ###   # #    ### 
+        ###  #   #   ### 
+        #  #     #   # #  
+            #######      
+        ### #     #  ### 
+        ### #     #  ### ''')
+    time.sleep(1)
+    system("cls")
+    print('''
+        ###    #       #    ### 
+        ###   # #     # #   ### 
+        ###  #   #   #   #  ### 
+        #  #     # #     #  #  
+            ####### #######     
+        ### #     # #     # ### 
+        ### #     # #     # ### 
+                         ''')
+    time.sleep(1)
+    system("cls")
+    print('''
+    ###    #       #       #    ### 
+    ###   # #     # #     # #   ### 
+    ###  #   #   #   #   #   #  ### 
+    #  #     # #     # #     #  #  
+        ####### ####### #######     
+    ### #     # #     # #     # ### 
+    ### #     # #     # #     # ### ''')
+    time.sleep(1)
+    system("cls")
+    print('''
+    ###    #       #       #       #    ### 
+    ###   # #     # #     # #     # #   ### 
+    ###  #   #   #   #   #   #   #   #  ### 
+    #   #     # #     # #     # #     #  #  
+        ####### ####### ####### #######     
+    ### #     # #     # #     # #     # ### 
+    ### #     # #     # #     # #     # ### 
+                                         ''')
+    time.sleep(1)
+    system("cls")
+
+
 
 def animacionAtaque1():
     print('''
@@ -84,6 +130,17 @@ def animacionAtaque1():
                                                                                     ####     777    ###
                                                                                     ########7777    #######''')
     time.sleep(t)
+    system("cls")
+    print('''
+                                                                                        ############
+                                                                                    ######   ###    ####
+                                                                                    #####    ###    #####
+                                                                                    ######77 ############ 
+                                                                                    #####  77       #####
+                                                                                    ####    77      #### 
+                                                                                    ####    777     ###
+                                                                                    ########7777    #######''')
+    time.sleep(1)
     system("cls")
     
 
@@ -313,9 +370,9 @@ class enemigo:
 
 #-------------------------------------------------------------------------------
 
-personaje1 = personaje(100, 33, 0)
-personaje2 = personaje(75, 50, 0)
-Enemigo1 = enemigo(100, 33, 0)
+personaje1 = personaje(110, 33, 100)
+personaje2 = personaje(75, 50, 100)
+Enemigo1 = enemigo(120, 40, 100)
 t = 0.1
 
 while True:
@@ -345,11 +402,11 @@ while True:
 
     except ValueError:
         print("tonto")
-
+AAA()
 while True:
     try:
         system("cls")
-        print("AAAAAAAAAAAAAAAAAAAAAA")
+        
         e1()
         print()
         print()
@@ -382,7 +439,7 @@ while True:
             
         a = random.randint(1,100)
 
-        if a > 50:
+        if a > 30:
             per.vida = per.vida - Enemigo1.ataque
             animacionAtaqueEnemigo1()
 
