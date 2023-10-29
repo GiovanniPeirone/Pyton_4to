@@ -1,5 +1,4 @@
 import random
-
 from os import system
 from time import sleep 
 import time
@@ -26,7 +25,7 @@ def AAA():
             #######      
         ### #     #  ### 
         ### #     #  ### ''')
-    time.sleep(1)
+    time.sleep(0.5)
     system("cls")
     print('''
         ###    #       #    ### 
@@ -37,7 +36,7 @@ def AAA():
         ### #     # #     # ### 
         ### #     # #     # ### 
                          ''')
-    time.sleep(1)
+    time.sleep(0.5)
     system("cls")
     print('''
     ###    #       #       #    ### 
@@ -47,7 +46,7 @@ def AAA():
         ####### ####### #######     
     ### #     # #     # #     # ### 
     ### #     # #     # #     # ### ''')
-    time.sleep(1)
+    time.sleep(0.5)
     system("cls")
     print('''
     ###    #       #       #       #    ### 
@@ -58,7 +57,7 @@ def AAA():
     ### #     # #     # #     # #     # ### 
     ### #     # #     # #     # #     # ### 
                                          ''')
-    time.sleep(1)
+    time.sleep(0.5)
     system("cls")
 
 
@@ -141,6 +140,133 @@ def animacionAtaque1():
                                                                                     ####    777     ###
                                                                                     ########7777    #######''')
     time.sleep(1)
+    system("cls")
+    print("H a s  a t a c a d o")
+    time.sleep(1)
+    system("cls")
+    
+    
+def animacionEscudoEnemigo1():
+    print('''
+                    |                                                                   ############
+                    |                                                               ######   ###    ####
+                    |                                                               #####    ###    #####
+                    |                                                               ####################
+                    |                                                               #####          #####
+                    |                                                               ####           ####
+                    |                                                               ####           ####
+                    |                                                               ########       ########''')
+    time.sleep(t)
+    system("cls")
+    print('''
+                    |                                                           ############
+                    |                                                               ######   ###    ####
+                    |                                                               #####    ###    #####
+                    |                                                               ####################
+                    |                                                               #####          #####
+                    |                                                               ####           ####
+                    |                                                               ####           ####
+                    |                                                               ########       ########''')
+    time.sleep(t)
+    system("cls")
+    print('''
+                    |                        ############
+                    |                                               ######   ###    ####
+                    |                                                               #####    ###    #####
+                    |                                                               ####################
+                    |                                                               #####          #####
+                    |                                                               ####           ####
+                    |                                                               ####           ####
+                    |                                                               ########       ########''')
+    time.sleep(t)
+    system("cls")
+    print('''
+                    |############
+                    |                   ######   ###    ####
+                    |                                               #####    ###    #####
+                    |                                                               ####################
+                    |                                                               #####          #####
+                    |                                                               ####           ####
+                    |                                                               ####           ####
+                    |                                                               ########       ########''')
+    time.sleep(t)
+    system("cls")
+    print('''
+                    |############
+                    |######   ###    ####
+                    |                    #####    ###    #####
+                    |                                           ####################
+                    |                                                               #####          #####
+                    |                                                               ####           ####
+                    |                                                               ####           ####
+                    |                                                               ########       ########''')
+    time.sleep(t)
+    system("cls")
+    print('''
+                    |############
+                    |######   ###    ####
+                    |#####    ###    #####
+                    |                   ####################
+                    |                                        #####          #####
+                    |                                                               ####           ####
+                    |                                                               ####           ####
+                    |                                                               ########       ########''')
+    time.sleep(t)
+    system("cls")
+    print('''
+                    |############
+                    |######   ###    ####
+                    |#####    ###    #####
+                    |####################
+                    |                   #####          #####
+                    |                                           ####           ####
+                    |                                                               ####           ####
+                    |                                                               ########       ########''')
+    time.sleep(t)
+    system("cls")
+    print('''
+                    |############
+                    |######   ###    ####
+                    |#####    ###    #####
+                    |####################
+                    |#####          #####
+                    |                   ####           ####
+                    |                                           ####           ####
+                    |                                                               ########       ########''')
+    time.sleep(t)
+    system("cls")
+    print('''
+                    |############
+                    |######   ###    ####
+                    |#####    ###    #####
+                    |####################
+                    |#####          #####
+                    |####           ####
+                                        ####           ####
+                                                                ########       ########                     ''')
+    time.sleep(t)
+    system("cls")
+    print('''
+                    |############
+                    |######   ###    ####
+                    |#####    ###    #####
+                    |####################
+                    |#####          #####
+                    |####           ####
+                    |####           ####
+                                        ########       ########                                             ''')
+    time.sleep(t)
+    system("cls")
+    print('''
+                    |############
+                    |######   ###    ####
+                    |#####    ###    #####
+                    |####################
+                    |#####          #####
+                    |####           ####
+                    |####           ####
+                    |########       ########                                                                 ''')
+    time.sleep(t)
     system("cls")
     
 
@@ -297,17 +423,18 @@ def animacionAtaqueEnemigo1():
 def e1():
     modeloE1 = '''
                                                                                         ############
-                                                                                    ######   ###    ####
-                                                                                    #####    ###    #####
+                                                                                    #####   ###    ####
+                                                                                    ####    ###    #####
                                                                                     ####################
                                                                                     #####          #####
                                                                                     ####           ####
                                                                                     ####           ####
-                                                                                    ########       ########'''
+                                                                                ########       ########'''
     print(modeloE1)
-    print("vida:",Enemigo1.vida)
-    print("ataque:",Enemigo1.ataque)
-    print("escudo:",Enemigo1.escudo)
+    print("                                                                         Vida:",Enemigo1.vida)
+    print("                                                                         Ataque:",Enemigo1.ataque)
+    print("                                                                         Escudo:",Enemigo1.escudo)
+    
 
 
 
@@ -374,6 +501,7 @@ personaje1 = personaje(110, 33, 100)
 personaje2 = personaje(75, 50, 100)
 Enemigo1 = enemigo(120, 40, 100)
 t = 0.1
+Argecibidad = 70
 
 while True:
     try:
@@ -402,9 +530,17 @@ while True:
 
     except ValueError:
         print("tonto")
+system("cls")
 AAA()
 while True:
     try:
+        if  per.vida <= 0:
+            print("P E R D I S T E")
+            break
+        if Enemigo1.vida <= 0:
+            system("cls")
+            print("H a s  G a n a d o")
+            break
         system("cls")
         
         e1()
@@ -420,32 +556,42 @@ while True:
 
         o = int(input(":"))
 
-        if o == 1:
-            animacionAtaque1()
-            Enemigo1.vida = Enemigo1.vida - per.ataque
-
-        #if o == 2:
-            
 
         if o == 3:
             system("cls")
             print("H a s   E s c a p a d o")
             break
-
-        if Enemigo1.vida <= 0:
-            system("cls")
-            print("H a s  G a n a d o")
-            break
             
         a = random.randint(1,100)
 
-        if a > 30:
+        
+            
+        if o == 2 and a > Argecibidad:
+            if per.escudo < 0:
+                print("el escudo esta roto")
+                o = 4
+            system("cls")
+            print("N o  a  a t a c a d o")
+            sleep(1)
+        elif o == 2 and a < Argecibidad:
+            if per.escudo < 0:
+                print("el escudo esta roto")
+                o = 4
+            per.escudo = per.escudo - random.randint(2,50)
+            animacionEscudoEnemigo1()
+            print ("H a s  a n u l a s t e  e l  g o l p e")
+        elif o == 1:
+            Enemigo1.vida = Enemigo1.vida - per.ataque
+            animacionAtaque1()
+        
+        
+        if a < Argecibidad and o != 2:
             per.vida = per.vida - Enemigo1.ataque
             animacionAtaqueEnemigo1()
+            
 
-        if  per.vida < 0:
-            print("P E R D I S T E")
-            break
+
+        
 
     except ValueError:
         print("tonto")
@@ -453,7 +599,3 @@ while True:
 
     
 
-    
-
-
-        
