@@ -1,3 +1,4 @@
+#HAY MUCHOS BUGS
 import random
 from os import system
 from time import sleep 
