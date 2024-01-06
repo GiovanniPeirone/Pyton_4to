@@ -488,7 +488,7 @@ class personaje:
 
 class enemigo:
 
-    personalidad = "ostil"
+    personalidad = "hostil"
 
     def __init__(self, vida, ataque, escudo):
         self.vida = vida
